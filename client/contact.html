@@ -24,20 +24,20 @@
     {{/if}}
     <!-- Start Contact Form -->
     <form role="form" method="POST">
-    <div class="col-xs-12 col-md-8 col-lg-6 col-centered">
+    <div class="col-xs-12 col-centered">
       <div class="form-group">
         <label for="name">Your Name</label>
-        <input type="text" class="form-control" name="name" placeholder="Name" pattern="[a-zA-Z]+" required>
+        <input type="text" class="form-control" name="name" pattern="[a-zA-Z]+" required>
       </div>
       <div class="form-group">
         <label for="email">Your Email</label>
-        <input type="email" class="form-control" name="email" placeholder="Email" required>
+        <input type="email" class="form-control" name="email" required>
       </div>
       <div class="form-group">
         <label for="message">Message</label>
-        <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+        <textarea name="message" class="form-control" rows="6" required></textarea>
       </div>
-      <button type="submit" name="submit" class="btn btn-info btn-lg pull-right">Submit</button>
+      <button type="submit" name="submit" class="btn btn-default pull-right">Send Message</button>
     </div>
   </form>
   {{/if}}

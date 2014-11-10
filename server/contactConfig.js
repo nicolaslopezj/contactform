@@ -1,6 +1,7 @@
 contactFormConfig = {
   settings: {
     fullName: '',
-    emailTo: ''
+    emailTo: '',
+    emailFrom: ''
   }
 };

@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'rgoomar:contactform',
+  name: 'nicolaslopezj:contactform',
   summary: 'Simple drop-in contact form with validation',
-  version: '0.0.5_1',
-  git: 'https://github.com/rgoomar/contactform'
+  version: '1.0.0',
+  git: 'https://github.com/nicolaslopezj/contactform'
 });
 
 Package.onUse(function(api) {

@@ -1,5 +1,4 @@
 Template.contactForm.rendered = ->
-  document.title = 'Contact'
   $('form').bootstrapValidator
       message: 'This value is not valid'
       feedbackIcons:
@@ -40,8 +39,8 @@ Template.contactForm.events
       else
         Session.set 'formSubmitted', true
 
-Template.contactForm.formSubmitted = ->
-  Session.get 'formSubmitted'
-
-Template.contactForm.formError = ->
-  Session.get 'formError'
+Template.contactForm.helpers
+  formSubmitted: ->
+    Session.get 'formSubmitted'
+  formError: ->
+    Session.get 'formError'
