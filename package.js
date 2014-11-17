@@ -1,7 +1,7 @@
 Package.describe({
   name: 'nicolaslopezj:contactform',
   summary: 'Simple drop-in contact form with validation',
-  version: '1.0.0',
+  version: '1.0.1',
   git: 'https://github.com/nicolaslopezj/contactform'
 });
 
@@ -15,8 +15,6 @@ Package.onUse(function(api) {
       'underscore',
       'less',
       'session',
-      'chrismbeckett:fontawesome4@4.2.1',
-      'mizzao:bootstrap-3@3.2.0_1',
       'rgoomar:bootstrap-validator@0.5.2'
     ], 'client');
 
